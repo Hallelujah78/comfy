@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+  <!-- styles css -->
+  <link rel="stylesheet" href="styles.css" />
+  <title>Home | Comfy</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <!-- links -->
+      <div>
+        <button class="toggle-nav">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li>
+            <a class="nav-link" href="./index.html">home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="./products.html">products</a>
+          </li>
+          <li>
+            <a class="nav-link" href="./about.html">about</a>
+          </li>
+        </ul>
+      </div>
+      <!-- logo -->
+      <img class="nav-logo" src="./images/logo-white.svg" alt="logo">
+      <!-- cart icon -->
+      <div class="toggle-container">
+        <button class="toggle-cart">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <span class="cart-item-count"></span>
+      </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-container">
+      <h1 class="text-slanted">rest, relax, unwind</h1>
+      <h3>embrace your choices - we do</h3>
+      <a class="hero-btn" href="./products.html">show now</a>
+    </div>
+  </section>
+  <!-- sidebar -->
+  <div class="sidebar-overlay">
+    <aside class="sidebar">
+      <button class="sidebar-close">
+        <i class="fas fa-times"></i>
+      </button>
+      <ul class="sidebar-links">
+        <li>
+          <a class="sidebar-link" href="./index.html">
+            <i class="fas fa-home fa-fw"></i>home</a>
+        </li>
+        <li>
+          <a class="sidebar-link" href="./products.html">
+            <i class="fas fa-couch fa-fw"></i>products</a>
+        </li>
+        <li>
+          <a class="sidebar-link" href="./about.html">
+            <i class="fas fa-book fa-fw"></i>about</a>
+        </li>
+      </ul>
+    </aside>
+  </div>
+  <!-- end of sidebar -->
+  <!-- cart -->
+  <div class="cart-overlay">
+    <aside class="cart">
+      <button class="cart-close">
+        <i class="fas fa-times"></i>
+      </button>
+      <header>
+        <h3 class="text-slanted">your bag</h3>
+
+
+      </header><!-- cart items -->
+      <div class="cart-items">
+        <!-- single cart item -->
+
+        <!-- end of single cart item -->
+      </div>
+      <footer>
+        <h3 class="cart-total text-slanted">total : $12.99</h3>
+        <button class="cart-checkout btn">checkout</button>
+      </footer>
+    </aside>
+  </div>
+  <!-- end of cart -->
+  <!-- featured products -->
+  <section class="section featured">
+    <div class="title">
+      <h2><span>/</span>featured</h2>
+    </div>
+    <a class="btn" href="products.html">all products</a>
+    <div class="featured-center section-center">
+      <h2 class="section-loading">loading...</h2>
+      <!-- single product -->
+
+      <!-- end of single product -->
+    </div>
+  </section>
+  <!-- end of featured products -->
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
